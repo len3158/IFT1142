@@ -1,0 +1,157 @@
+/*<!-- Auteur Lenny SIEMENI-->
+<!-- Date de création 9 avril 2016-->*/
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Enlever les points des ul*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav.navbar{
+    display: block;
+    text-align: center;
+}
+.navbar {
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+}
+.navbar {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+a {
+     
+  color: #FFFFFF !important;
+  transition:color .3s ease-out, background .2s ease-in;
+}
+a:hover {
+  color: #000000 !important;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+a.pageActive
+{
+  background-color:darkred;
+  color: black;
+}
+
+/*-------------Bannière-------------*/
+
+header h1 {
+    background: rgba(0, 0, 0, 0) url("../images/image_31.png") no-repeat scroll 0 0;
+    height: 300px;
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+    font-family: "century gothic";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.title{
+      display: inline-block;
+      vertical-align: middle;
+    
+      line-height: normal;
+    }
+
+/*-Bouton d'acceui-*/
+
+#boutonAcceuil{
+    position: absolute;
+    top: 0;
+}
+
+/*-Font Style-*/
+p.description{
+    font-familly: "Century Gothic";
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    text-align: center;
+    width: 60%;
+}
+
+.title{
+    font-familly: "Century Gothic";
+    color: white;
+}
+
+/******************************* Règles pour la page "joindre" *******************************/
+
+/******Règles pour le formulaire******/
+fieldset{
+    border: 2px solid black;
+
+}
+
+form div{
+    overflow: auto;
+    margin-top: 1em;
+}    
+
+/*Afficher un "*" à côté de chaque champ required*/ 
+input:required + label:after{
+    content: "*";
+}    
+
+/*Aligner le formulaire*/
+
+label{ 
+    display: inline-block; 
+    width: 6em; 
+} 
+
+legend{ 
+    font-weight: bold;
+}
+
+
+/*Règles pour les boutons de soumission*/
+input.envoyer{
+    text-align:center;
+    background-color:#ffcc00;
+    transition:color .3s ease-out, background .2s ease-in;
+}
+
+input.envoyer:hover{ 
+    background-color:#00ff00;
+
+}
+
+input.annuler {
+    text-align:center;
+    background-color: #ccffff;
+    transition:color .3s ease-out, background .2s ease-in;
+}
+
+input.annuler:hover{
+    background-color:#ff3300;
+}
+
+
+#submit{
+    display:block;
+    text-align:center;
+    
+}
+
+#submit input{
+    margin:3px;
+    padding: 3px 200px;
+    }
+         

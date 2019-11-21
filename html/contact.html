@@ -1,0 +1,98 @@
+<!-- Auteurs Lenny SIEMENI-->
+<!-- Date de création 9 avril 2016-->
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../css/styleTechCornerContact.css" rel="stylesheet" media="screen"/>
+        <title>Mordu de High-Tech</title>
+    </head>
+
+    <body>
+        <header role="banniere">
+            <div id="banniere">
+                <a href="../index.html">
+                    <img id="boutonAcceuil" style="width:128px;height:128px"
+        src="../images/Martz90-Circle-Addon2-Computer.ico" href="index.html" title="Acceuil"/>
+                </a >
+                <h1 class="title">Mordu de High-Tech</h1>
+                <p class="description">Notre entreprise, spécilisée dans la haute technologie et le bricolage, vous propose nos services depuis 1995. Ici, vous trouverez toutes sortes de produits high-tech et de bidules, que ce soit pour des solutions informatiques professionnelles, pour le bricolage, ou simplement pour étancher votre soif de technologie! </p>
+            </div>
+        </header>
+        <nav class="navbar">
+                <ul id="navbar" class="nav navbar-nav navbar-left navbar">
+                <li><a href="../index.html">Acceuil</a ></li>
+                <li><a href="../html/produit.html"  >Catalogue</a ></li>
+                <li><a href="../html/panier.html" onClick="afficherPanier();">Panier</a></li>
+                <li><a href="../html/contact.html" class="pageActive" class="pageActive">Contact</a></li>
+        </nav>
+
+<div id="fromulaire">
+     <form method="post" id="formContact">
+          <fieldset>
+           <fieldset>
+            <legend> Données personelles</legend><img style="width:64px;height:64px"
+                 src="../images/email_256.png" title="Contact"/>
+            <p>  
+               <div>
+                <label for="nom">Nom</label>
+                <input type="text" name="Nom" id="nom" required/>
+               </div>
+                
+                <div>
+                    <label for="prénom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" required/>
+                </div>
+                
+               <div>
+                <label for="phone">Téléphone</label>
+                <input type="tel" name="Phone" id="phone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}"/>
+               </div>
+                
+               <div>   
+                <label for="mail">Votre courriel</label>
+                   <input type="email" name="Courriel" id="courriel" placeholder="nom@exemple.com" required/>
+               </div>
+               
+               <div>
+                <label for="mail">Confirmation du courriel</label>
+                <input type="email" name="courriel" id="confCourriel" required/>
+               </div>
+              
+              <div>
+                <label for="code postal">Code postal</label>
+                <input type="text" name="CP" id="cp" placeholder="X9X9X9" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]"/>
+              </div>  
+                
+              <div>  
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville"/>
+              </div>
+            </p>
+               </fieldset>
+              
+              <p id="submit">
+                  <input class="envoyer" type="button" value="Envoyer"/>
+                  <input class="annuler" type="reset" value="Effacer le formulaire"/>
+              </p>
+          </fieldset>   
+
+                
+            </p> 
+
+       </form> 
+           
+            
+</div>
+
+</body>
+
+
+        
+
+ <script language="javascript" src="../js/contact.js"></script>
+        
+<!-- Ces scripts sont nécessaires pour la barre de navigation-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

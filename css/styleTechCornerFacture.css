@@ -1,0 +1,85 @@
+/*<!-- Auteurs Lenny SIEMENI et Jean-Louis DURET-->
+<!-- Date de création 29 septembre 2015-->*/
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Enlever les points des ul*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav.navbar{
+    display: block;
+    text-align: center;
+}
+.navbar {
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+}
+.navbar {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+a {
+     
+  color: #FFFFFF !important;
+  transition:color .3s ease-out, background .2s ease-in;
+}
+a:hover {
+  color: #000000 !important;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+
+/*-------------Bannière-------------*/
+
+header h1 {
+    background: rgba(0, 0, 0, 0) url("../images/image_31.png") no-repeat scroll 0 0;
+    height: 300px;
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+    font-family: "century gothic";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.title{
+      display: inline-block;
+      vertical-align: middle;
+    
+      line-height: normal;
+    }
+
+/*-Bouton d'acceui-*/
+
+#boutonAcceuil{
+    position: absolute;
+    top: 0;
+}
+
+/*-Font Style-*/
+p.description{
+    font-familly: "Century Gothic";
+    color: black;
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+
+.title{
+    font-familly: "Century Gothic";
+    color: white;
+}

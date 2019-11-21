@@ -1,0 +1,171 @@
+/*<!-- Auteur Lenny SIEMENI-->
+<!-- Date de création 09 avril 2016-->*/
+
+body {
+    background-color: black;
+}
+
+/* Enlever les points des ul*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav.navbar{
+    display: block;
+    text-align: center;
+}
+.navbar {
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+}
+.navbar {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+a {
+     
+  color: #FFFFFF !important;
+  transition:color .3s ease-out, background .2s ease-in;
+}
+a:hover {
+  color: #000000 !important;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+a.pageActive
+{
+  background-color:darkred;
+  color: black;
+}
+
+
+/*-------------Bannière-------------*/
+
+header h1 {
+    background: rgba(0, 0, 0, 0) url("../images/image_31.png") no-repeat scroll 0 0;
+    height: 300px;
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+    font-family: "century gothic";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.title{
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+    }
+
+/*-Bouton d'acceui-*/
+
+#boutonAcceuil{
+    position: absolute;
+    top: 0;
+}
+
+/*-Font Style-*/
+p.description{
+    font-familly: "Century Gothic";
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    text-align: center;
+    width: 60%;
+}
+
+ .title{
+    font-familly: "Century Gothic";
+    color: white;
+}
+
+/*-------------Style pour la section recherche*-------------*/
+#divSelectRecherche{
+    display: block;
+    right: 0;
+    text-align: right;
+}
+/*-------------Style pour l'onglet des nouveautés*-------------*/
+#nouveaute {
+    clear: both;
+}
+
+
+
+/*-------------Style pour le tableau du statut*-------------*/
+#divStatut {
+    position: relative;
+    left:33%;
+    width: 60%;
+    overflow: auto;
+}
+
+#tableStatut {
+    color:aliceblue;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 14 pt;
+    font-weight: bold;
+    border: 3px solid whitesmoke;
+}
+
+#tableStatut td {
+    color:aliceblue;
+	border: 3px solid whitesmoke;
+}
+
+#tableStatut {
+    color:aliceblue;
+	bottom: 10%;
+    left: 30%;
+}
+
+#tableStatut tr {
+	color: aliceblue;
+}
+
+#tableStatut th {
+	color: aliceblue;
+    border: 1px solid;
+    font-weight : bold;
+}
+
+#tableStatut td {
+	color: aliceblue;
+    border: 1px solid;
+}
+
+
+/*---------------------------------------------------*/
+
+footer{
+    clear:both;
+    
+}
+
+div#w3cValidator{
+    display:inline-block;
+    width:100%;
+    margin: 0 auto;
+    border-top: 1px solid black;   
+}
+
+p#cssValidator{
+    float: right;
+    
+}
+
+

@@ -1,0 +1,54 @@
+<!-- Auteurs Lenny SIEMENI-->
+<!-- Date de création 9 avril 2016-->
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../css/styleTechCorner.css" rel="stylesheet" media="screen"/>
+        <title>Mordu de High-Tech</title>
+    </head>
+
+    <body>
+        <header role="banniere">
+            <div id="banniere">
+                <a href="index.html">
+                    <img id="boutonAcceuil" style="width:128px;height:128px"
+        src="images/Martz90-Circle-Addon2-Computer.ico" href="index.html" title="Acceuil"/>
+                </a >
+                <h1 class="title">Mordu de High-Tech</h1>
+                <p class="description">Notre entreprise, spécilisée dans la haute technologie et le bricolage, vous propose nos services depuis 1995. Ici, vous trouverez toutes sortes de produits high-tech et de bidules, que ce soit pour des solutions informatiques professionnelles, pour le bricolage, ou simplement pour étancher votre soif de technologie! </p>
+            </div>
+        </header>
+            <div id="divSelectRecherche">
+		    <form id="formRecherche">
+                <label for="recherche">Rechercher un produit:</label>
+			    <select name="recherche" id="selectRecherche" value="" > </select>
+                <input type="submit" value="Rechercher" onClick="()"><img style="width:50px;height:50px" src="images/cart_100322.jpg" href="" alt="rechercher"/>
+		    </form>
+	        </div>
+        <nav class="navbar">
+                <ul id="navbar" class="nav navbar-nav navbar-left navbar">
+                <li><a href="index.html" id="pageActive">Accueil</a ></li>
+                <li><a href="html/produit.html"  >Catalogue</a ></li>
+                <li><a href="html/panier.html" onClick="afficherPanier();">Panier</a></li>
+                <li><a href="html/contact.html" >Contact</a></li>
+        </nav>
+   
+<!--***************************NOUVEAUTÉS***************************-->
+<div id="contenuPanier">
+    <h1>Contenu de votre panier</h1>
+    <!--le javascript permettra de créer automatiquement des div a partir d'un tab JSON-->
+    <input type="submit" value="Passer la commande" onClick="payer()">
+</div>
+
+</body>
+
+
+        
+
+ <script language="javascript" src="js/script.js"></script>
+        
+<!-- Ces scripts sont nécessaires pour la barre de navigation-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
